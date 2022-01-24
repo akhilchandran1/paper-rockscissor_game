@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://cdn.iflscience.com/images/8f1d1162-331f-5852-a1ff-98dc4fb086ed/extra_large-1465920893-cover-image.jpg");
+    background-color: #87eedd;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+body .start-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #023864;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    padding: 30px 90px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+  }
+
+  body .start-button:hover{
+    background-color: black;
+    color: white;
+  }
